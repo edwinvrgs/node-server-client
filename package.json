@@ -1,0 +1,8 @@
+{
+  "name": "comunication-js",
+  "version": "0.1.0",
+  "description": "A simple data transfer program",
+  "main": "index.js",
+  "author": "Edwin Vargas <edwinvargas@protonmail.com>",
+  "license": "MIT"
+}
