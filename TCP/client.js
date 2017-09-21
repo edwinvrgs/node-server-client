@@ -1,4 +1,4 @@
-var net = require('net');
+const net = require('net');
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -6,7 +6,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-var client = new net.Socket();
+const client = new net.Socket();
 
 client.connect(1801, '190.204.43.12', () => {
     console.log('Connected');

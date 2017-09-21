@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 var clients = [];
 
-var server = net.createServer((client) => {
+const server = net.createServer((client) => {
 
     client.name = client.remoteAddress + ":" + client.remotePort
     console.log('Client ' + client.name + ' connected');
